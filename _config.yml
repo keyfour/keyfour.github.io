@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Keyfour Tech - your know-how advisor
+title: Innovation notes
 description: > # this means to ignore newlines until "baseurl:"
-  You can find some "how to" posts here.
+  Posts about interesting software and hardware studies and proof-of-concepts live here.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://keyfour.tech" # the base hostname & protocol for your site
 
@@ -24,4 +24,5 @@ markdown: kramdown
 remote_theme: pages-themes/hacker@v0.2.0
 plugins:
   - jekyll-remote-theme # add this line to the plugins list if you already have one
+
 
